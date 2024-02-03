@@ -1,0 +1,45 @@
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        color: red;
+        text-justify: center;
+    }
+
+    .scores {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        height: fit-content;
+    }
+
+    .scoreText {
+        text-align: center;
+        margin: 20px;
+        font-size: 14px;
+    }
+
+    #player, #computer {
+       text-align: center;
+       margin: 0px;
+    }
+
+    .players {
+        margin: 0px;
+    }
+
+    .reset{
+        text-align: center;
+        visibility:hidden;
+    }
+
+    .choices button {
+        padding: 10px;
+        border-radius: 6px; 
+    }
+   
